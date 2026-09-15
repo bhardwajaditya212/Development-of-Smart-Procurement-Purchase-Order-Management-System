@@ -1,18 +1,18 @@
 # Development of Smart Procurement & Purchase Order Management System
-> **Infosys Springboard Virtual Internship 7.0 — Final Project Release**  
+>  
 > **Author & Intern:** Aditya Bhardwaj ([bhardwajaditya212@gmail.com](mailto:bhardwajaditya212@gmail.com))  
 > **Repository:** [https://github.com/bhardwajaditya212/Development-of-Smart-Procurement-Purchase-Order-Management-System](https://github.com/bhardwajaditya212/Development-of-Smart-Procurement-Purchase-Order-Management-System)
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 The **Enterprise Procurement Management System (EPMS)** is an end-to-end, multi-tier procurement lifecycle automation platform designed to digitize corporate purchase requisitions, hierarchical managerial approvals, financial clearance, vendor fulfillment, real-time shipment dispatch tracking, and employee vendor feedback.
 
 Built with an enterprise-grade **Spring Boot 3.5.4** backend, **MySQL 8.0** relational persistence layer, and a modern **React 19 + Vite + Tailwind CSS** frontend portal, EPMS replaces manual, error-prone paperwork and uncoordinated emails with a unified, transparent, and auditable corporate workflow.
 
 ---
 
-## 🏗️ System Architecture & Tech Stack
+##  System Architecture & Tech Stack
 
 ```
    ┌────────────────────────────────────────────────────────┐
@@ -45,7 +45,7 @@ Built with an enterprise-grade **Spring Boot 3.5.4** backend, **MySQL 8.0** rela
 
 ---
 
-## 🔄 End-to-End 6-Stage Procurement Lifecycle
+##  End-to-End 6-Stage Procurement Lifecycle
 
 1. **Requisition Inception (Employee Portal):**
    - Employee selects Department, Product Category, Item, and Quantity.
@@ -84,43 +84,43 @@ Built with an enterprise-grade **Spring Boot 3.5.4** backend, **MySQL 8.0** rela
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Development-of-Smart-Procurement-Purchase-Order-Management-System/
-├── enterpriseprocurementsystem/          # Spring Boot 3.5.4 Backend
+├── enterpriseprocurementsystem/           Spring Boot 3.5.4 Backend
 │   ├── src/main/java/com/aditya/enterpriseprocurementsystem/
-│   │   ├── config/                       # CorsConfig, WebMvc
-│   │   ├── controller/                   # 10 REST Controllers
-│   │   ├── dto/                          # 21 Data Transfer Objects
-│   │   ├── entity/                       # 11 JPA Relational Entities
-│   │   ├── enums/                        # RequestStatus State Machine
-│   │   ├── repository/                   # 11 Spring Data JPA Repositories
-│   │   └── service/                      # Business Logic & MailService
+│   │   ├── config/                        CorsConfig, WebMvc
+│   │   ├── controller/                    10 REST Controllers
+│   │   ├── dto/                           21 Data Transfer Objects
+│   │   ├── entity/                        11 JPA Relational Entities
+│   │   ├── enums/                         RequestStatus State Machine
+│   │   ├── repository/                    11 Spring Data JPA Repositories
+│   │   └── service/                       Business Logic & MailService
 │   ├── src/main/resources/
-│   │   ├── application.properties        # App Configuration
-│   │   └── application.properties.example # Sanitized Template
-│   ├── pom.xml                           # Maven Build Configuration
-│   └── mvnw / mvnw.cmd                   # Maven Wrapper
+│   │   ├── application.properties         App Configuration
+│   │   └── application.properties.example  Sanitized Template
+│   ├── pom.xml                            Maven Build Configuration
+│   └── mvnw / mvnw.cmd                    Maven Wrapper
 │
-├── procurement-frontend/                 # React 19 Frontend
+├── procurement-frontend/                  React 19 Frontend
 │   ├── src/
-│   │   ├── components/layout/            # Navbar, Sidebar
-│   │   ├── context/                      # AuthContext (Role State)
-│   │   ├── pages/                        # 10 Application Role Pages
-│   │   ├── services/                     # api.js (Axios REST Client)
-│   │   ├── App.jsx                       # Routing & State Hierarchy
-│   │   └── main.jsx                      # Application Entrypoint
-│   ├── package.json                      # NPM Dependencies
-│   └── vite.config.js                    # Vite Configuration
+│   │   ├── components/layout/             Navbar, Sidebar
+│   │   ├── context/                       AuthContext (Role State)
+│   │   ├── pages/                         10 Application Role Pages
+│   │   ├── services/                      api.js (Axios REST Client)
+│   │   ├── App.jsx                        Routing & State Hierarchy
+│   │   └── main.jsx                       Application Entrypoint
+│   ├── package.json                       NPM Dependencies
+│   └── vite.config.js                     Vite Configuration
 │
-├── .gitignore                            # Root Git Exclusions
-└── README.md                             # Project Documentation
+├── .gitignore                             Root Git Exclusions
+└── README.md                              Project Documentation
 ```
 
 ---
 
-## ⚡ Quick Start & Local Setup
+##  Quick Start & Local Setup
 
 ### 1. Prerequisites
 - Java Development Kit (JDK 17 or higher)
@@ -163,7 +163,7 @@ CREATE DATABASE employee_db;
 
 ---
 
-## 🔑 Default Credentials & Role Accounts
+##  Default Credentials & Role Accounts
 
 | Role | Email | Password | Access / Purpose |
 |------|-------|----------|------------------|
@@ -173,7 +173,7 @@ CREATE DATABASE employee_db;
 
 ---
 
-## 📜 REST API Catalog
+##  REST API Catalog
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -190,8 +190,4 @@ CREATE DATABASE employee_db;
 
 ---
 
-## 🏆 Internship Certification & Acknowledgments
-- **Program:** Infosys Springboard Virtual Internship 7.0
-- **Domain:** Full-Stack Java Development & Enterprise Systems
-- **Author:** Aditya Bhardwaj
-- **Submission Mail:** `springboardmentor.manage@gmail.com`
+
