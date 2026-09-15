@@ -155,17 +155,7 @@ CREATE DATABASE employee_db;
    npm run dev
    ```
    Frontend runs on: `http://localhost:5173`
-
----
-
-##  Default Credentials & Role Accounts
-
-| Role | Email | Password | Access / Purpose |
-|------|-------|----------|------------------|
-| **Employee** | `aditya@gmail.com` | `Aditya@123` | Raise requisitions, track shipments, submit feedback |
-| **Admin (Approver L1/L2/L3)** | `bhardwajaditya212@gmail.com` | `Aditya@123` | Multi-level approval review, payment clearance, ledger |
-| **Supplier** | `supplier@techsolutions.com` | `Aditya@123` | Order acceptance, packing, AWB dispatch & delivery |
-
+   
 ---
 
 ##  REST API Catalog
