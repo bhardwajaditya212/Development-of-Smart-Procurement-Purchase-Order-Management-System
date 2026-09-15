@@ -1,0 +1,20 @@
+# Dependencies & Builds
+target/
+node_modules/
+dist/
+
+# Backup & Checkpoints
+checkpoint_backup_*/
+*.bak
+*.tmp
+
+# IDEs & System
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
