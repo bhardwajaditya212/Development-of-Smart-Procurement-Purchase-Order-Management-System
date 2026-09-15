@@ -1,10 +1,5 @@
 # Development of Smart Procurement & Purchase Order Management System
->  
-> **Author & Intern:** Aditya Bhardwaj ([bhardwajaditya212@gmail.com](mailto:bhardwajaditya212@gmail.com))  
-> **Repository:** [https://github.com/bhardwajaditya212/Development-of-Smart-Procurement-Purchase-Order-Management-System](https://github.com/bhardwajaditya212/Development-of-Smart-Procurement-Purchase-Order-Management-System)
-
 ---
-
 ##  Project Overview
 The **Enterprise Procurement Management System (EPMS)** is an end-to-end, multi-tier procurement lifecycle automation platform designed to digitize corporate purchase requisitions, hierarchical managerial approvals, financial clearance, vendor fulfillment, real-time shipment dispatch tracking, and employee vendor feedback.
 
@@ -120,7 +115,7 @@ Development-of-Smart-Procurement-Purchase-Order-Management-System/
 
 ---
 
-##  Quick Start & Local Setup
+##   Setup
 
 ### 1. Prerequisites
 - Java Development Kit (JDK 17 or higher)
@@ -189,5 +184,5 @@ CREATE DATABASE employee_db;
 | `POST` | `/feedback/submit` | Submit 4-star vendor performance scorecard |
 
 ---
-
+Author: Aditya bhardwaj
 
